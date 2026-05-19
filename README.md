@@ -21,7 +21,7 @@ The suite operates across two databases (`Mydata` as the source, and `StudenData
 | **`Section`** | `NVARCHAR(50)` | Nullable | Assigned classroom/cohort section |
 
 ### Database Setup Scripts
-Ensure your SQL Server instance has the following tables created before running the SSIS migration or SSRS reports:
+Ensure SQL Server instance has the following tables created before running the SSIS migration or SSRS reports:
 
 ```sql
 -- Create Source Database & Table
